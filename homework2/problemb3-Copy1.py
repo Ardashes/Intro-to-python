@@ -1,0 +1,10 @@
+import argparse
+parser=argparse.ArgumentParser()
+parser.add_argument("text", help="uppercase and lowercase",type=str)
+parser.add_argument("First_word", help="The first word",type=str)
+parser.add_argument("Second_word", help="The second word", type=str)
+args=parser.parse_args()
+print("The given text:", args.text)
+print("First word:", args.First_word)
+print("Second word:", args.Second_word)
+print("new text:", args.text.replace(args.First_word,args.Second_word))

@@ -1,0 +1,10 @@
+import argparse
+parser=argparse.ArgumentParser()
+parser.add_argument("text" ,help="What is the text", type=str)
+parser.add_argument("start_index" , help="starting index", type=int)
+parser.add_argument("end_index" , help="ending index" , type=int)
+args=parser.parse_args()
+print("The given text: " , args.text)
+print("start index: " , args.start_index)
+print("end index: " , args.end_index)
+print("Output string: ", args.text[3:11])
