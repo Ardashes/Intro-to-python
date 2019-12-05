@@ -1,0 +1,7 @@
+def max1(*argv):
+    if argv==():
+        print("no numbers given")
+    else:
+            s=max(argv)
+            print(s)
+            

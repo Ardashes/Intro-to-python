@@ -1,0 +1,10 @@
+def avrg(name,*argv):
+     
+        if argv==():
+            print ("No Grades available for",name)
+            
+        else:
+                s=sum(argv)
+                a=s/len(argv)
+                
+                print (name,"your average grade is",a)

@@ -1,0 +1,2 @@
+def message(name,greeting="Welcome to our company"):
+     return (name,greeting)
